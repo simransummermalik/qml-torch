@@ -214,6 +214,9 @@ A:This project mainly needs people who are comfortable writing a little Python a
 **Q: Isn’t this just a toy project since quantum computers aren’t practical yet?**
 A:Think of QML Torch as future-proof skill building. Even if today’s hardware is small-scale, hybrid quantum ML is an active research area with real publications. By structuring this as a Python package, with examples and case studies across cyber, NLP, and recommenders, students build skills in ML, reproducible research, and quantum integration. Whether quantum scales tomorrow or ten years from now, this toolkit helps people get familiar with the methods, which is valuable training in itself.
 
+**Q: If quantum models are so limited right now, won’t results always be worse than classical?**
+A: Sometimes, yes  and that’s actually valuable. Many QML papers today focus on identifying cases where quantum methods underperform, perform equally, or outperform. By running side by side benchmarks, QML Torch creates honest case studies: not hype, but real data on when quantum helps and when it doesn’t. Even “negative” results contribute to the global understanding of where QML is worth exploring.
+
 ---
 
 ## Team Structure (8–10 Members)
