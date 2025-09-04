@@ -198,9 +198,18 @@ A: Lowers the barrier to entry — students can run hybrid ML on laptops without
 A: Provides ready-to-use tutorials, notebooks, and demos for teaching hybrid ML.  
 
 **Q: What do you mean by case studies?**
+
 A: When we say case studies in this project, we don’t mean writing essays. We mean small applied experiments where we take QML Torch and test it on a real world dataset or domain.
 for an example for cybersecurity we’d take a tiny intrusion dataset, train a normal model, then train the same model with our quantum kernel, and compare them. Each domain (cyber, NLP, bio, etc.) gets its own mini test like that. Such as intrusion detection (obviously doesnt need to be this)
 
+**Q: What even is the difference between QML torch and pytorch?**
+A: PyTorch is classical ML only. QML Torch is PyTorch with plug-and-play quantum layers and kernels, so you can test hybrid quantum-classical models without learning a new framework.
+
+**Q: What is a quibit?**
+A: A qubit is the quantum version of a bit. A normal bit is like a light switch...it’s either on (1) or off (0). A qubit, by contrast, can be in a blend of both at once, a property called superposition. This doesn’t mean it’s “half on and half off,” but that it carries probabilities of being measured as either. When you finally check the qubit, it snaps into one outcome (0 or 1). Qubits can also be entangled, where two qubits behave as a single system no matter the distance. These features give qubits far richer ways to encode and process information than ordinary bits, which is why they’re promising for fields like optimization, physics simulation, and machine learning.
+
+**Q: What technical skills are needed for this project?**
+A:This project mainly needs people who are comfortable writing a little Python and willing to learn. If you’ve used libraries like PyTorch or scikit-learn before, that’s a bonus, but not required we’ll walk through the basics together in Phase 0. People who like working with data (cleaning, plotting, visualizing results) or writing clear documentation will also be very valuable. For those curious about quantum, you don’t need to know physics we’ll cover what qubits and circuits are, and the code libraries (PennyLane, Qiskit) handle the math for us. Advanced members can focus on Docker, CI/CD, or model tuning, but beginners can absolutely contribute by running examples, building notebooks, or helping with case studies. The project is structured so no one has to do everything, and everyone can learn while contributing.
 ---
 
 ## Team Structure (8–10 Members)
