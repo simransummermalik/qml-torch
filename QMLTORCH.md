@@ -210,6 +210,7 @@ A: A qubit is the quantum version of a bit. A normal bit is like a light switch.
 
 **Q: What technical skills are needed for this project?**
 A:This project mainly needs people who are comfortable writing a little Python and willing to learn. If you’ve used libraries like PyTorch or scikit-learn before, that’s a bonus, but not required we’ll walk through the basics together in Phase 0. People who like working with data (cleaning, plotting, visualizing results) or writing clear documentation will also be very valuable. For those curious about quantum, you don’t need to know physics we’ll cover what qubits and circuits are, and the code libraries (PennyLane, Qiskit) handle the math for us. Advanced members can focus on Docker, CI/CD, or model tuning, but beginners can absolutely contribute by running examples, building notebooks, or helping with case studies. The project is structured so no one has to do everything, and everyone can learn while contributing.
+
 ---
 
 ## Team Structure (8–10 Members)
