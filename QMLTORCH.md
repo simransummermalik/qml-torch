@@ -197,6 +197,10 @@ A: Lowers the barrier to entry — students can run hybrid ML on laptops without
 **Q: What’s the value for educators?**  
 A: Provides ready-to-use tutorials, notebooks, and demos for teaching hybrid ML.  
 
+**Q: What do you mean by case studies?**
+A: When we say case studies in this project, we don’t mean writing essays. We mean small applied experiments where we take QML Torch and test it on a real world dataset or domain.
+for an example for cybersecurity we’d take a tiny intrusion dataset, train a normal model, then train the same model with our quantum kernel, and compare them. Each domain (cyber, NLP, bio, etc.) gets its own mini test like that. Such as intrusion detection (obviously doesnt need to be this)
+
 ---
 
 ## Team Structure (8–10 Members)
