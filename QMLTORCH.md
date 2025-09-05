@@ -217,6 +217,16 @@ A:Think of QML Torch as future-proof skill building. Even if today’s hardware 
 **Q: If quantum models are so limited right now, won’t results always be worse than classical?**
 A: Sometimes, yes  and that’s actually valuable. Many QML papers today focus on identifying cases where quantum methods underperform, perform equally, or outperform. By running side by side benchmarks, QML Torch creates honest case studies: not hype, but real data on when quantum helps and when it doesn’t. Even “negative” results contribute to the global understanding of where QML is worth exploring.
 
+**Q: How is QML Torch different from PennyLane?**
+A: PennyLane is a general-purpose quantum programming library. It gives you the raw tools to build quantum circuits, simulate them, and even connect them to ML frameworks like PyTorch — but you often need to write a lot of boilerplate and know both quantum computing and machine learning fairly well. QML Torch takes those raw parts and packages them into a focused toolkit for ML developers. Instead of writing custom QNodes or worrying about encodings from scratch, you get ready-to-use PyTorch layers (TorchQuantumLayer) and scikit-learn kernels (QuantumKernel) that behave exactly like the layers and kernels you already use in classical ML. On top of that, QML Torch provides benchmarks, case studies, a CLI, documentation, and a demo app so you can actually compare quantum vs classical models across domains like cybersecurity or NLP. In short: PennyLane is the engine, QML Torch is the finished car designed for machine learning researchers and students to drive right away.
+
+**Q: Don’t you need different circuits for different tasks?**
+A: Yes — and this is one of the biggest challenges in quantum ML. The circuit you choose (the ansatz) controls how data is put into qubits and how the qubits interact. Think of it like choosing a neural network architecture in classical ML: you wouldn’t use the same CNN for image recognition and a recommender system. For example:
+Angle encoding: simple rotation gates — good for low-dimensional data.
+Amplitude encoding: packs an entire vector into amplitudes — efficient but sensitive to noise.
+Entangling layers: create correlations between qubits, which may be crucial for complex tasks.
+In PennyLane, you’d have to hand-build these circuits for each experiment. In QML Torch, we provide a library of standard templates (RY-only layers, RX–CNOT blocks, hardware-efficient designs, etc.) and plug them directly into ML pipelines. Beginners can use the defaults to get results quickly, while advanced members can swap in new circuits to see how they perform on specific problems. That balance — accessibility plus flexibility — is a big part of what makes QML Torch a project rather than just another wrapper around PennyLane.
+
 ---
 
 ## Team Structure (8–10 Members)
